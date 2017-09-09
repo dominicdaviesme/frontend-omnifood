@@ -3,3 +3,13 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+html {
+	background-color: #fff;
+	color: #555;
+	font-family: 'Lato', 'Arial', sans-serif;
+	/*	Overall font size*/
+	font-size: 20px;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
