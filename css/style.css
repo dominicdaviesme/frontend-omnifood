@@ -37,12 +37,55 @@ header {
 	width: 1140px;
 	top: 50%;
 	left: 50%;
-	transform: translate{-50%, -50%};
+	transform: translate(-50%, -50%);
 }
 
 h1 {
 	margin: 0;
+	margin-bottom: 20px;
+	color: #fff;
+	/*	relatvie to base size 20px*/
+	font-size: 240%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
 }
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 200px;
+}
+
+.btn-full {
+	border: 1px solid #e67e22;
+	background-color: #e67e22;
+	color: #fff;
+}
+
+
+.btn-ghost {
+	border: 1px solid #e67e22;
+	color: #e67e22;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
