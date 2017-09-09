@@ -13,3 +13,59 @@ html {
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 }
+
+.row {
+	/*	the only style in pixels*/
+	max-width: 1140px;
+	/*	Center content*/
+	margin: 0 auto;
+}
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/css/img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+	/*	100% of the viewport*/
+	height: 100vh; 
+	position: relative;
+}
+
+
+.hero-text-box {
+	/*	vertial and horizontal centering  */
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate{-50%, -50%};
+}
+
+h1 {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
