@@ -43,10 +43,11 @@ section {
 /*	Headings 					   */
 /*-----------------------*/
 
-h1, h2 {
+h1,
+h2,
+h3 {
 	font-weight: 300;
 	text-transform: uppercase;
-	letter-spacing: 1px;
 }
 
 h1 {
@@ -56,6 +57,7 @@ h1 {
 	/*	relatvie to base size 20px*/
 	font-size: 240%;
 	word-spacing: 4px;
+	letter-spacing: 1px;
 }
 
 h2 {
@@ -63,7 +65,14 @@ h2 {
 	word-spacing: 2px;
 	text-align: center;
 	margin-bottom: 30px;
+	letter-spacing: 1px;
 }
+
+h3 {
+	font-size: 110%;
+	margin-bottom: 15px;
+}
+
 
 /* orange line under h2  */
 h2:after {
@@ -76,6 +85,8 @@ h2:after {
 	margin-top: 30px;
 }
 
+
+
 /*	Paragraphs	 			   */
 /*-----------------------*/
 
@@ -85,6 +96,11 @@ h2:after {
 	width: 70%;
 	/*	will center as the remainder is 30%  */
 	margin-left: 15%;
+}
+
+.box p {
+	font-size: 90%;
+	line-height: 145%;
 }
 
 
