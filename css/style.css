@@ -72,6 +72,18 @@ h2:after {
 	margin-top: 30px;
 }
 
+/*	Paragraphs	 			   */
+/*-----------------------*/
+
+.long-copy {
+	line-height: 145%;
+	/*	paragraph too long*/
+	width: 70%;
+	/*	will center as the remainder is 30%  */
+	margin-left: 15%;
+}
+
+
 /*	Buttons 		 			   */
 /*-----------------------*/
 .btn:link,
