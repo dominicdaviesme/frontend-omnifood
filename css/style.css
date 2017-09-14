@@ -1,7 +1,7 @@
 /*
 Orange color #e67e22
 */
-
+/*---------------*/
 /*	Basic Setup  */
 /*---------------*/
 
@@ -30,7 +30,7 @@ html {
 	visibility: hidden;
 }
 
-
+/*-----------------------*/
 /*	Reusable Components  */
 /*-----------------------*/
 
@@ -213,7 +213,6 @@ input[type=submit]{
 /*	Header code 			   */
 /*-----------------------*/
 
-
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
@@ -222,7 +221,6 @@ header {
     position: relative;
 		background-attachment: fixed;
 }
-
 
 .hero-text-box {
 	/*	vertial and horizontal centering  */
@@ -374,7 +372,6 @@ header {
 	margin-right: 10px;
 }
 
-
 /*-----------------------*/
 /*	Cities Section  		 */
 /*-----------------------*/
@@ -521,7 +518,6 @@ input[type=checkbox]{
 /*-----------------------*/
 /*	Footer  Section 		 */
 /*-----------------------*/
-
 
 footer {
 	background: #333;

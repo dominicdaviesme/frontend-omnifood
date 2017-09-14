@@ -1,0 +1,36 @@
+
+
+
+/* Big tablet to  1200px  (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+	
+}
+
+
+
+/* Device width 768px to  1023px  (tablet in landscape mode) */
+@media only screen and (max-width: 1023px) {
+	
+}
+
+
+
+
+/* Device width Less or equal to 767px  (small phones to tablet in portrait mode) */
+@media only screen and (max-width: 767px) {
+	
+}
+
+
+
+
+
+
+/* Device width Less or equal to 480px  (small phones in portrait mode) */
+@media only screen and (max-width: 480px) {
+	
+}
+
+
+
+
