@@ -256,9 +256,7 @@ header {
 
 
 .sticky .logo { display: none; }
-.sticky .logo-black {
-	display: block;
-}
+.sticky .logo-black { display: block; }
 
 /*-----------------------*/
 /*	Main Navigation		 */
@@ -304,6 +302,8 @@ header {
 	width: 100%;
 	background-color: rgba(255, 255, 255, 0.98);
 	box-shadow: 0 2px 2px #efefef;
+	/*	Keep sticky nav always on top, issue was over the photo section */
+	z-index: 9999;
 }
 
 .sticky .main-nav li a:link,
@@ -312,7 +312,7 @@ header {
 	color: #555;
 }
 
-.main-nav {	margin-top: 18px; }
+.sticky .main-nav {	margin-top: 18px; }
 
 
 
