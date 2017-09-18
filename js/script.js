@@ -67,4 +67,46 @@ $('a[href*="#"]')
   });
 	
 	
+//	Animations on Scroll
+	// 4 x features
+	$('.js--wp-1').waypoint(function(direction) {
+		$('.js--wp-1').addClass('animated fadeIn');
+	}, {
+		offset: '50%'
+	});
+	
+	// Phone Image
+	$('.js--wp-2').waypoint(function(direction) {
+		$('.js--wp-2').addClass('animated fadeInUp');
+	}, {
+		offset: '50%'
+	});
+	
+	//  Cities - fadeIn
+	$('.js--wp-3').waypoint(function(direction) {
+	$('.js--wp-3').addClass('animated fadeIn');
+	}, {
+		offset: '50%'
+	});
+	
+	//  Pricing plan - Pulse
+	$('.js--wp-4').waypoint(function(direction) {
+		$('.js--wp-4').addClass('animated pulse');
+	}, {
+		offset: '50%'
+	});
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
